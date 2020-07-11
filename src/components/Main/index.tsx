@@ -9,12 +9,21 @@ const Main: React.FC = () => {
         <button>
           <BackIcon />
         </button>
+
+        <ProfileInfo>
+          <strong> Jhoni Santos</strong>
+          <span>500 Tweets</span>
+        </ProfileInfo>
       </Header>
 
-      <ProfileInfo>
-        <strong> Jhoni Santos</strong>
-        <span>500 Tweets</span>
-      </ProfileInfo>
+      {/* <ProfilePage />
+
+      <BottomMenu>
+        <HomeIcon />
+        <SearchIcon />
+        <BellIcon />
+        <EmailIcon />
+      </BottomMenu> */}
     </Container>
   );
 };
