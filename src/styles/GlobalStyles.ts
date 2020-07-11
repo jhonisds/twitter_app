@@ -36,7 +36,7 @@ html {
     --outline: #2f3336;
     --retweet: #00C06B;
     --like: #E8265E;
-    --twitter: #2f3336;
+    --twitter: #33A1F2;
     --twitter-dark-hover: #011017;
     --twitter-light-hover: #2C8ED6;
 }
