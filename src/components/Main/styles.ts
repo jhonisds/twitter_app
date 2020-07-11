@@ -22,10 +22,12 @@ export const Header = styled.div`
   z-index: 2;
   position: stick;
   top: 0;
+
   background: var(primary);
   display: flex;
   align-items: center;
   text-align: left;
+
   padding: 8px 0 9px 13px;
   border-bottom: 1px solid var(--outline);
 
@@ -43,6 +45,7 @@ export const Header = styled.div`
 export const BackIcon = styled(ArrowLeft)`
   width: 24px;
   height: 24px;
+
   fill: var(--twitter);
 `;
 
@@ -72,7 +75,6 @@ export const BottomMenu = styled.div`
 
   display: flex;
   justify-content: space-between;
-
   padding: 8px min(46px, max(10vw, 10px));
 
   @media (min-width: 500px) {
